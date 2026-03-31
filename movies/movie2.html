@@ -1,0 +1,204 @@
+<!-- movie 1 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie 1</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        background-clip: fixed;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        /* max-width: 1200px; */
+        margin: 20px auto;
+        padding: 20px;
+        /* background-color: white; */
+        background: radial-gradient(#ffffff, #7b00ff);
+        background-clip: padding-box;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+      }
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        /* background-color: rgb(164, 156, 156); */
+      }
+      .box img {
+        background-color: rgb(158, 156, 144);
+        padding: 20px;
+        width: 350px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(50, 50, 50, 0.1);
+      }
+      .box p {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 1.6;
+      }
+      iframe {
+        margin-left: 20px;
+        margin-top: 20px;
+        /* align-items: center; */
+        justify-content: center;
+        justify-items: center;
+        border-radius: 20px;
+      }
+      iframe:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+
+      .details {
+        /* display: flexx; */
+        margin-left: 0;
+        font-size: 18px;
+        /* line-height: 1.0; */
+        justify-content: center;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+      }
+      .title {
+        color: transparent;
+        background-clip: text;
+        /* background-image: linear-gradient(45deg, #8806d8, #0a85bd); */
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Movie Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../movies.html">Movies</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h2 class="title">Game OF Thrones</h2>
+      <div class="box">
+        <img src="/images/por2.png" alt="The Great Adventure" />
+        <br /><br /><br /><br />
+        <!-- add director information -->
+      </div>
+      <!-- </div> -->
+      <div class="details">
+        <p><strong>Rating:</strong> 8.5/10⭐</p>
+        <p><strong>Director:</strong>David Benioff</p>
+        <p><strong>Release Date:</strong> April 17, 2011</p>
+        <p>
+          <strong>Genre:</strong>Action,Adventure,Fantasy,Serial drama,Tragedy
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Game of Thrones is an American fantasy drama television series created
+          by David Benioff and D. B. Weiss for HBO. It is the first adaptation
+          of the A Song of Ice and Fire franchise, a series of high fantasy
+          novels by George R. R. Martin, the first of which is A Game of
+          Thrones. The show premiered on HBO in the United States on April 17,
+          2011, and concluded on May 19, 2019, with 73 episodes broadcast over
+          eight seasons. Set on the fictional continents of Westeros and Essos,
+          Game of Thrones has a large ensemble cast and follows several story
+          arcs throughout the course of the show. The first major arc concerns
+          the Iron Throne of the Seven Kingdoms of Westeros through a web of
+          political conflicts among the noble families, either vying to claim
+          the throne or fighting for independence. The second major arc focuses
+          on the last descendant of the realm's deposed ruling dynasty, who has
+          been exiled to Essos and is plotting to return and reclaim the throne.
+          The third follows the Night's Watch, a military order defending the
+          realm against threats from beyond the Seven Kingdoms' northern border.
+        </p>
+      </div>
+      <div class="box">
+        <h5>Watch Trailer👉</h5>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/rlR4PJn8b8I?si=W4W-x5Q53o2O2tex"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Movie Details. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

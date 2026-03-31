@@ -1,0 +1,193 @@
+<!-- movie 1 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie 1</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        background-clip: fixed;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .container {
+        /* max-width: 1200px; */
+        margin: 20px auto;
+        padding: 20px;
+        /* background-color: white; */
+        background: radial-gradient(#ffffff, #7b00ff);
+        background-clip: padding-box;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #333;
+        text-align: center;
+      }
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        /* background-color: rgb(164, 156, 156); */
+      }
+      .box img {
+        background-color: rgb(158, 156, 144);
+        padding: 20px;
+        width: 350px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(50, 50, 50, 0.1);
+      }
+      .box p {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 1.6;
+      }
+      iframe {
+        margin-left: 20px;
+        margin-top: 20px;
+        /* align-items: center; */
+        justify-content: center;
+        justify-items: center;
+        border-radius: 20px;
+      }
+      iframe:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+
+      .details {
+        /* display: flexx; */
+        margin-left: 0;
+        font-size: 18px;
+        /* line-height: 1.0; */
+        justify-content: center;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+      }
+      .title {
+        color: transparent;
+        background-clip: text;
+        /* background-image: linear-gradient(45deg, #8806d8, #0a85bd); */
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Movie Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../movies.html">Movies</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h2 class="title">Titanic</h2>
+      <div class="box">
+        <img src="/images/por4.png" alt="The Great Adventure" />
+        <br /><br /><br /><br />
+        <!-- add director information -->
+      </div>
+      <!-- </div> -->
+      <div class="details">
+        <p><strong>Rating:</strong> 8.0/10⭐</p>
+        <p><strong>Director:</strong>James Cameron</p>
+        <p><strong>Release Date:</strong> December 19, 1997</p>
+        <p><strong>Genre:</strong> Adventure,Comedy drama,Science fantasy,tragedy</p>
+      </div>
+
+      <div>
+        <p>
+          Titanic is a 1997 American epic historical romance film written and
+          directed by James Cameron. Incorporating both historical and fictional
+          aspects, it is based on accounts of the sinking of RMS Titanic in
+          1912. Leonardo DiCaprio and Kate Winslet star as members of different
+          social classes who fall in love during the ship's ill-fated maiden
+          voyage. The ensemble cast includes Billy Zane, Kathy Bates, Frances
+          Fisher, Bernard Hill, Jonathan Hyde, Danny Nucci, David Warner and
+          Bill Paxton.
+        </p>
+      </div>
+      <div class="box">
+        <h5>Watch Trailer👉</h5>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/I7c1etV7D7g?si=I-bLCk7QfLvEklh1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Movie Details. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
