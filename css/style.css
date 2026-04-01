@@ -40,10 +40,7 @@
         max-width: 1200px;
         margin: 20px auto;
         padding: 20px;
-        background-color: white; 
-        background-image:url(../images/cinema.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0); 
         /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
       }
       h2 {
